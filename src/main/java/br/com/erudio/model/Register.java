@@ -1,14 +1,11 @@
 package br.com.erudio.model;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 
 @Entity
 public class Register {
@@ -26,10 +23,6 @@ public class Register {
     @NotBlank(message = "O email é obrigatório")
     private String email;
     
-    @Enumerated(EnumType.STRING)
-    @NotNull(message = "O sexo é obrigatório")
-    private String gender;
-    
     @NotBlank(message = "A senha é obrigatória")
     private String password;
     
@@ -43,13 +36,11 @@ public class Register {
     public Register(@NotBlank(message = "O nome é obrigatório") String name,
             @NotBlank(message = "A matrícula é obrigatória") String registration,
             @Email(message = "O email deve ser válido") @NotBlank(message = "O email é obrigatório") String email,
-            @NotNull(message = "O sexo é obrigatório") String gender,
             @NotBlank(message = "A senha é obrigatória") String password,
             @NotBlank(message = "A confirmação de senha é obrigatória") String confirmPassword) {
         this.name = name;
         this.registration = registration;
         this.email = email;
-        this.gender = gender;
         this.password = password;
         this.confirmPassword = confirmPassword;
     }
@@ -84,14 +75,6 @@ public class Register {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
     }
 
     public String getPassword() {

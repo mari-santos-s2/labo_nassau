@@ -38,7 +38,6 @@ public class UserService {
             entity.setFullName(user.getFullName());
             entity.setRegistration(user.getRegistration());
             entity.setEmail(user.getEmail());
-            entity.setGender(user.getGender());
         
         return repository.save(user);
     }
