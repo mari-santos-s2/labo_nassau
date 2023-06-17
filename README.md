@@ -11,3 +11,6 @@ Utilizamos de chamadas atravez do meet e outras plataformas de comunicação par
 projeto e alianhamos versões do codigo para melhor interpretação e entendimento do era feito, é possivel encontrar 
 algumas falhas pois o projeto ainda esta em desenvolvimento.
 
+Organizamos diversos meios para simular o mundo real de trabalho, como por exemplo plataformas como o TRELLO e salas de reunião no TEAMS e MEET.
+houve contato constante entre os membros da equipe e um grande auxilio de professores para que o projeto contivesse a fidelidade apropriada para
+sua exibição.
