@@ -5,3 +5,4 @@ Primeira parte do nosso trabalho foi construir um prototipo de alta fidelidade, 
 O Figma é uma plataforma de design de interface do usuário e experiência do usuário baseada em nuvem que oferece 
 ferramentas avançadas de criação, colaboração em tempo real e prototipagem. É amplamente utilizado por equipes de design para 
 criar interfaces de usuário atraentes e funcionais, e promove um fluxo de trabalho colaborativo eficiente.
+site:https://www.figma.com/file/WHAiZj5ynkN4Pi9CMPySDH/Untitled?type=design&node-id=0%3A1&t=c31QDt08hvWa50Is-1
